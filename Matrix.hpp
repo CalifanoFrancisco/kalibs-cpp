@@ -3,12 +3,14 @@
 
 #include "Iterator.hpp"
 
-template <
+template 
+<
     typename T,
     size_t   X = 1,
     size_t   Y = 1,
     size_t   Z = 1
-> class Matrix 
+> 
+class Matrix 
 {
 public:
     const size_t x = X;
